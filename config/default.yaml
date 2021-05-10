@@ -1,0 +1,10 @@
+server:
+  listen: "0.0.0.0"
+datastore:
+  host: localhost
+domains:
+  default:
+    rate: "1/sec"
+    burst: 10
+stats:
+  host: localhost
